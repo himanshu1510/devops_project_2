@@ -1,0 +1,45 @@
+img{
+	width: 350px;
+	height: 400px;
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover{
+	transform:scale(1.1);
+}
+.container{
+	
+	display: flex;
+	flex-wrap: nowrap ;
+	justify-content:center;
+	flex-direction: row;
+}
+h1{
+	
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom: 3px solid red;
+	width: 400px;
+	text-align: center;
+	border-right: 3px solid red;
+	border-left: 3px solid red;
+	box-shadow: 4px 4px 4px 4px #888;
+	-moz-box-shadow: 4px 4px 4px 4px #888;
+	-ms-box-shadow: 4px 4px 4px 4px #888;
+	-webkit-box-shadow: 4px 4px 4px 4px #888;
+	-o-box-shadow: 4px 4px 4px 4px #888;
+
+}
+.droplet {
+  background: mediumaquamarine;
+  border-radius: 2% 50%;
+  height: 100px;
+  margin: 100px;
+  transition: all 10s;
+  
+  width: 100px;
+
+  
+  &:hover {
+    transform: rotate(1080deg);
+  }
+}
